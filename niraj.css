@@ -1,0 +1,17 @@
+.header_right {
+    width: 70%;
+    float: right;
+    height: 80px;
+    position: relative;
+    border: 0.5px solid rgba(0,0,0, 0.2);
+    overflow: hidden;
+  }
+  .icons_right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  .message_box.active, .message .message_options.active {
+    display: block;
+  }
